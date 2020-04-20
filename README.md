@@ -1,1 +1,1 @@
-# HTML-CSS_work
+HTML/CSS学習用のリポジトリ
