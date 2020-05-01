@@ -23,23 +23,27 @@ body {
     top: 40px;
     left: 40px;
 }
-#layout1 {
-    position: fixed;
-    top: 10px;
-    background-color: red;
+
+/* -------------------- header -------------------- */
+#header {
+    width: 100%;
 }
-#layout2 {
-    position: relative;
-    left: 40px;
-    background-color: yellow;
+#header h1 {
+    margin: 0;
+    padding: 0;
 }
-#layout3 {
-    position: relative;
-    right: -40px;
-    background-color: blue;
+#corridor {
+    width: 100%;
+    height: auto;
 }
-#layout4 {
-    position: relative;
-    bottom: 40px;
-    background-color: gray;
+
+/* -------------------- footer -------------------- */
+#footer {
+    clear: both;
+    width: 100;
+    padding :3px 0 3px 0;
+    background: #39F;
+    color: #FFF;
+    font-weight: bold;
+    text-align: center;
 }
