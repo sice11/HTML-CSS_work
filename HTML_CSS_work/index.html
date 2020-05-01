@@ -2,20 +2,20 @@
 <html lang="ja">
   <head>
     <style>
-      html{
-        scroll-behavior: smooth;
+      #header {
+        background-color: red;
+        position: fixed;
       }
-      .size{
-        height: 500px;
+      .size {
+        position: relative;
+        top: 2000px;
       }
     </style>
   </head>
   <body>
-    <div class = "size">
-      <a href = "#hoge">move to hoge</a>
+    <div id = "header">
+      Header
     </div>
-    <div id = "hoge" class = "size">
-      <h1>hoge</h1>
-    </div>
+    <h1 class = "size">Body</h1>
   </body>
  </html> 
