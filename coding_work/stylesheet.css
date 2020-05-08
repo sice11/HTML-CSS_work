@@ -71,3 +71,32 @@ body {
     text-decoration: none;
     background-color: green;
 }
+
+/* -------------------- nav-border -------------------- */
+#nav-border {
+    width: 100%;
+}
+
+#nav-border ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#nav-border ul li {
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+#nav-border ul li a {
+    display: block;
+    height: 20px;
+    margin: 0;
+    padding: 10px;
+    color: #FFF;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: green;
+    border-left: 2px solid white;
+}
