@@ -22,6 +22,10 @@
                 background-color: yellow;
             }
             
+            .parent .child:first-child {
+                background-color: red;
+            }
+            
             input:focus {
                 background-color: green;
             }
@@ -31,12 +35,13 @@
             }
             
             :root {
-                background-color: red;
+                background-color: orange;
             }
         </style>
         <meta http-equiv="content-type" charset="utf-8">
     </head>
     <body>
+
         <img src = "hoge.png" id = "responsive-img">
         <audio src = "hoge.mp3" controls></audio>
         <h1>Index</h1>
@@ -45,8 +50,11 @@
         <a href = "https://www.sejuku.net/blog/">侍エンジニア塾ブログ</a>
         <input type = "text"/>
         
-        <h2>hoge</h2>
-        <h2>fuge</h2>
-        <h2>foo</h2>
+        <div class = "parent">
+            <h2 class = "child">hoge</h2>
+            <h2 class = "child">fuge</h2>
+            <h2 class = "child">foo</h2>
+        </div>
+
     </body>
 </html>
