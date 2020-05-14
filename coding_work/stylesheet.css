@@ -148,11 +148,13 @@ body {
 	padding: auto;
 	padding-top: 20px;
 	clear: both;
+	display: grid;
+	grid-template-columns: 50vw 50vw;
 }
 /* -------------------- main -------------------- */
 #main {
 	float: left;
-	width: 60%;
+	width: 95%;
 	padding: 10px 30px 10px 10px;
 }
 #main h2 {
@@ -200,7 +202,7 @@ body {
 /* -------------------- side -------------------- */
 #side {
 	float: right;
-	width: 30%;
+	width: 50%;
 	padding: 20px;
 	background-color: #F99;
 }
@@ -242,3 +244,4 @@ body {
 	border-bottom: solid 1px #C36;
 	box-shadow: 0px 4px 4px rgba(0,0,0,0.3);
 }
+
